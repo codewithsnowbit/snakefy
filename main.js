@@ -6,8 +6,6 @@ const snakefy = () => {
     txt.value = snake;
 }
 
-const camelfy = () => {
-    const text = txt.value;
-    const camel = text.replace(/\s/g, '');
-    txt.value = camel;
+const star = () => {
+    window.location.href = 'https://github.com/codewithsnowbit/snakefy'
 }
